@@ -1,0 +1,9 @@
+1. Background noise removal
+2. Audio normalization
+3. Segmentation and removal of silent chucks
+4. Feature extraction: Mel-Frequency Cepstral Coefficients (MFCCs): Provide a representation of the short-term power spectrum of sound.
+Pitch and Prosodic Features: Capture linguistic features like intonation and rhythm.
+Spectral Features: Such as Linear Predictive Coding (LPC) coefficients, which capture frequency information more readily. 
+5. Model Training:
+For supervised learning, datasets with labeled speaker change points are used to train the model.
+The model learns to recognize patterns that correspond to changes in speakers based on the features extracted
