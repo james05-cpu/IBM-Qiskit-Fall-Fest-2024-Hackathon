@@ -1,3 +1,3 @@
 <?php
-$conn=new SQLite3('ParkingSystem.sqlite3');
+$conn=new SQLite3('SystemData.sqlite3');
 ?>
